@@ -1,7 +1,7 @@
 const getTheTitles = function (arr) {
-  for (const book of books) {
+  return arr.map((book) => {
     return book.title;
-  }
+  });
 };
 
 const books = [
